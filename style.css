@@ -1,0 +1,35 @@
+.profile-image {
+    border-radius: 360px;
+    height: 140px;
+    width: 140px;
+
+}
+
+.name {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique
+}
+
+.major {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique
+}
+
+.icon-image{
+    height: 40;
+    width: auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-image: url('./background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
