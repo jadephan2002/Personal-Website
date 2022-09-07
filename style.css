@@ -28,10 +28,10 @@
     position: absolute;
 
     border-radius: 360px;
-    height: 7rem;
-    width: 7rem;
+    height: 10rem;
+    width: 10rem;
 
-    top: 6.4rem;
+    top: 8rem;
     left: 50%;
     transform: translate(-50%, 0%);
 }
@@ -39,31 +39,56 @@
 .name {
     position: absolute;
 
-    font-size: 25px;
+    font-size: 37px;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
 
 
     left: 50%;
-    top: 14rem;
+    top: 19.5rem;
     transform: translate(-50%, 0%);
 }
 
 .major {
     position: absolute;
 
-    font-size: 17px;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
 
     left: 50%;
-    top: 16rem;
+    top: 23.3rem;
     transform: translate(-50%, 0%);
 }
 
-.icon-image{
-    height: 40;
+.resume-image {
+    position: absolute;
+    height: 140;
     width: auto;
+
+    left: 45%;
+    top: 31rem;
+    transform: translate(-50%, 0%);
+}
+
+.linkedin-image {
+    position: absolute;
+    height: 70;
+    width: auto;
+
+    left: 50%;
+    top: 31rem;
+    transform: translate(-50%, 0%);
+}
+
+.mail-image {
+    position: absolute;
+    height: 70;
+    width: auto;
+
+    left: 55%;
+    top: 31rem;
+    transform: translate(-50%, 0%);
 }
 
 *{
