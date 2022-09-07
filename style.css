@@ -1,20 +1,64 @@
-.profile-image {
-    border-radius: 360px;
-    height: 140px;
-    width: 140px;
+.background{
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
 
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.white-background{
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    object-fit: cover;
+
+    border-radius: 20px;
+    height: 600px;
+    width: 384px;
+    min-width: 384px;
+    
+}
+
+.profile-image {
+    position: absolute;
+
+    border-radius: 360px;
+    height: 7rem;
+    width: 7rem;
+
+    top: 6.4rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 
 .name {
+    position: absolute;
+
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
-    font-style: oblique
+    font-style: oblique;
+
+
+    left: 50%;
+    top: 14rem;
+    transform: translate(-50%, 0%);
 }
 
 .major {
+    position: absolute;
+
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
-    font-style: oblique
+    font-style: oblique;
+
+    left: 50%;
+    top: 16rem;
+    transform: translate(-50%, 0%);
 }
 
 .icon-image{
@@ -27,9 +71,3 @@
     padding: 0;
 }
 
-.background{
-    background-image: url('./background.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh; 
-}
