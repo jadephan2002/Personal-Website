@@ -36,13 +36,18 @@
     transform: translate(-50%, 0%);
 }
 
+@font-face {
+    font-family: "RachelBrown";
+    src: url(RachelBrown.ttf);
+}
+
 .name {
     position: absolute;
 
     font-size: 37px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: oblique;
-
+    font-family: 'RachelBrown';
+    /* font-style: oblique; */
+    white-space: nowrap;
 
     left: 50%;
     top: 19.5rem;
@@ -53,11 +58,29 @@
     position: absolute;
 
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: oblique;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'RachelBrown';
+    /* font-style: oblique; */
+    white-space: nowrap;
+    overflow: hidden;
 
     left: 50%;
-    top: 23.3rem;
+    top: 24.3rem;
+    transform: translate(-50%, 0%);
+}
+
+.intro {
+    position: absolute;
+
+    font-size: 20px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'RachelBrown';
+    /* font-style: oblique; */
+    white-space: nowrap;
+    overflow: hidden;
+
+    left: 50%;
+    top: 27.3rem;
     transform: translate(-50%, 0%);
 }
 
@@ -79,10 +102,11 @@
     left: 50%;
     top: 31rem;
     transform: translate(-50%, 0%);
+
 }
 
 .mail-image {
-    position: absolute;
+    position: fixed;
     height: 70;
     width: auto;
 
